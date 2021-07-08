@@ -69,7 +69,7 @@ class FasaPaydunyaController extends Controller
                     Donateur::create($input);
                      return redirect($invoice->getInvoiceUrl());
                 }else{
-                    return redirect('/home');
+                    return redirect('/');
                 }
         
     }
