@@ -27,31 +27,31 @@
                     <div class="card anas-bg card-form text-center">
                       <div class="card-body">
                           @include('include.form_error')
-                        <h3 class="text-white">Merci pour votre geste</h3>
-                        <p class="text-white">UN PETIT GESTE, UNE GRANDE PORTÉE</p>
+                        <h3 class="text-white">Thank you for your gesture</h3>
+                        <p class="text-white">A LITTLE GESTURE, A LARGE REACH</p>
                         {!! Form::open(['method' => 'POST', 'action' => 'FasaPaydunyaController@MakePaiement']) !!}
                                 <div class="form-group">
-                                    {!! Form::text('nom', null, ['class' => 'form-control', 'placeholder' => 'Entrez votre nom']) !!}
+                                    {!! Form::text('nom', null, ['class' => 'form-control', 'placeholder' => 'Enter your name']) !!}
                                 </div>
                                 <div class="form-group">
-                                    {!! Form::text('prenom', null, ['class' => 'form-control', 'placeholder' => 'Entrez votre prénom']) !!}
+                                    {!! Form::text('prenom', null, ['class' => 'form-control', 'placeholder' => 'Enter your first name']) !!}
                                 </div>
                                 <div class="form-group">
-                                    {!! Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'Entrez votre email']) !!}
+                                    {!! Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'Enter your e-mail']) !!}
                                 </div>
                                 <div class="form-group">
-                                    {!! Form::text('numero', null, ['class' => 'form-control', 'placeholder' => 'Entrez votre numéro de téléphone']) !!}
+                                    {!! Form::text('numero', null, ['class' => 'form-control', 'placeholder' => 'Enter your phone number']) !!}
                                 </div>
 
                                 <div class="form-group">
-                                    {!! Form::number('montant', null, ['class' => 'form-control', 'placeholder' => 'Entrez le montant de votre donation']) !!}
+                                    {!! Form::number('montant', null, ['class' => 'form-control', 'placeholder' => 'Enter the amount of your donation']) !!}
                                 </div>
                                 <div class="form-group">
                                     {!! Form::select('pays',$pays, null, ['class' => 'form-control']) !!}
                                 </div>
                                 <div class="row d-flex justify-content-center">
                                     <div class="col-lg-6">
-                                        {!! Form::submit('Faire le don', ['class' => 'btn btn-outline-light btn-block my-2']) !!}
+                                        {!! Form::submit('Donate', ['class' => 'btn btn-outline-light btn-block my-2']) !!}
                                     </div>
                                 </div>
 
@@ -59,11 +59,11 @@
                       </div>
                     </div>
                     <div class="alert alert-success mt-2">
-                        <p class="text-center ">Après avoir entrée les informations concernant votre don, vous serez automatiquement redirigé sur une plate-forme de paiement sécurisé sur laquelle vous allez procéder au paiement</p>
+                        <p class="text-center ">After entering the information regarding your donation, you will be automatically redirected to a secure payment platform on which you will proceed to payment.</p>
                     </div>
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-4">
-                            <a href="https://fasafoundation.org/" class="btn btn-primary btn-block">Revenir au site</a>
+                            <a href="https://anasngo.org//" class="btn btn-primary btn-block">Return to site</a>
                         </div>
                     </div>
                   </div>
