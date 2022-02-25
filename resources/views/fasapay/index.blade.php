@@ -12,7 +12,7 @@
             height: 700px;
         }
         .anas-bg{
-            background-color: #f44716;
+            background-color: #66d90f;
         }
         body{
             
@@ -29,6 +29,7 @@
                           @include('include.form_error')
                         <h3 class="text-white">Thank you for your gesture</h3>
                         <p class="text-white">A LITTLE GESTURE, A LARGE REACH</p>
+                        <p class="text-white">You are making donation for ANAS</p>
                         {!! Form::open(['method' => 'POST', 'action' => 'FasaPaydunyaController@MakePaiement']) !!}
                                 <div class="form-group">
                                     {!! Form::text('nom', null, ['class' => 'form-control', 'placeholder' => 'Enter your name']) !!}
