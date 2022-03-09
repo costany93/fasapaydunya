@@ -69,8 +69,19 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-6">
-                    <img src="images/logo.png" alt="" class="img-fluid">
+                  <div class="col-lg-6 mt-5">
+                    <div class="alert alert-danger">
+                        <p class="text-center font-weight-bold">TERMS AND CONDITIONS</p>
+                        <p class="text-black">3. Donations and purchases We use the Paydunya payment processor for online payments by card and mobile wallet, Paydunya is a secure online payment service 3dSecure donors make their donations in a secure environment. Donations made from the website will not be refunded. <br>
+                       <span class="font-weight-bold"> For more information download the file below</span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="/pdf/conditions-fr.pdf" class="btn btn-danger">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <img src="images/logo.png" alt="" class="img-fluid d-none d-lg-block">
                     <img src="images/paiement.png" alt="" class="img-fluid">
                 </div>
             </div>
