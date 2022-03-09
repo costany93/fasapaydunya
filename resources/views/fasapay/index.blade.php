@@ -76,7 +76,7 @@
                        <span class="font-weight-bold"> For more information download the file below</span>
                         </p>
                         <div class="d-flex justify-content-center align-items-center">
-                            <a href="/pdf/conditions-fr.pdf" class="btn btn-danger">
+                            <a href="./pdf/conditions-fr.pdf" class="btn btn-danger">
                                 Download
                             </a>
                         </div>
